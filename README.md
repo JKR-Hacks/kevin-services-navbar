@@ -4,6 +4,7 @@
 
 ## Related Projects
 
+  - https://github.com/JKR-Hacks/kevin-services-standings
   - https://github.com/JKR-Hacks/joes-services-schedule
   - https://github.com/JKR-Hacks/randy-services-stats
 
