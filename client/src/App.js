@@ -4,8 +4,6 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 import Navigation from './components/Navigation';
-import Standings from './components/Standings';
-import FullStandings from './components/FullStandings';
 
 export default class App extends Component {
   constructor(props) {
@@ -15,7 +13,6 @@ export default class App extends Component {
       view: 'main',
     };
     this.renderView = this.renderView.bind(this);
-    this.handleClick = this.handleClick.bind(this);
   }
 
   componentDidMount() {
@@ -31,13 +28,6 @@ export default class App extends Component {
       });
   }
 
-  handleClick() {
-    const { view } = this.state;
-    this.setState({
-      view: 'fullstandings',
-    });
-  }
-
   // eslint-disable-next-line consistent-return
   renderView() {
     const { view, teams } = this.state;
@@ -45,15 +35,6 @@ export default class App extends Component {
       return (
         <div>
           <Navigation teams={teams} />
-          <div id="mainstandings">
-            <Standings teams={teams} handleClick={this.handleClick} />
-          </div>
-        </div>
-      );
-    } if (view === 'fullstandings') {
-      return (
-        <div id="fullstandings">
-          <FullStandings teams={teams} />
         </div>
       );
     }

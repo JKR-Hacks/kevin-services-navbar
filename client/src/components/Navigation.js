@@ -9,6 +9,7 @@ const Navigation = (props) => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/052016/untitled-1_242.png?itok=nRWq5scp" alt="espn" width="65px" />
         <a className="navbar-brand" href="/">
           <img src="https://a.espncdn.com/i/teamlogos/nfl/500/lar.png" alt="logo" width="50px" />
         </a>
