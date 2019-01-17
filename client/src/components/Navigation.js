@@ -32,13 +32,13 @@ const Navigation = (props) => {
               <a className="nav-link" href="/">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">Stats</a>
+              <a className="nav-link" href="http://randyservicesteamleaderss-env.2cxqjhgwps.us-east-2.elasticbeanstalk.com/">Stats</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">Schedule</a>
+              <a className="nav-link" href="http://mainschedule-env.x2iugg8dsg.us-east-2.elasticbeanstalk.com/">Schedule</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">Standings</a>
+              <a className="nav-link" href="http://feckevinservicesfullstandings-env.uqrtgu3hp9.us-east-1.elasticbeanstalk.com/">Standings</a>
             </li>
           </ul>
         </div>
